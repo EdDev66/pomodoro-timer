@@ -1,0 +1,91 @@
+body {
+    font-family: 'Gloria Hallelujah';
+    background: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.settings1, .settings2 {
+    margin-top: 50px;
+    display: inline-block;
+    border: 5px solid #000;
+    padding: 20px 70px;
+    margin-bottom: 30px;
+    background: linear-gradient(to bottom, #ff0000 0%, #660033 100%);
+    color: #fff;
+}
+
+.session {
+    display: inline-block;
+    border: 5px solid #000;
+    padding: 80px 120px;
+    border-radius: 50px;
+    font-size: 3em;
+    background: linear-gradient(to bottom, #ff0000 0%, #660033 100%);
+    color: #fff;
+}
+
+.activity {
+    font-size: 0.4em;
+    color: #000;
+    font-weight: 600;
+}
+
+
+
+.sliderUp, .sliderDown, .setCount, .breakCount, .breakSlideDown, .breakSlideUp, .playBtn, .sessionTime, .resetBtn, .pause {
+    display: inline;
+    font-size: 1.3em;
+    font-weight: 600;
+    -webkit-user-select: none;
+}
+
+.sliderUp, .sliderDown, .breakSlideDown, .breakSlideUp {
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.sliderUp:hover, .sliderDown:hover, .breakSlideDown:hover, .breakSlideUp:hover {
+    background-color: #000;
+    color: #fff;
+    
+}
+
+.playBtn, .resetBtn, .pause {
+    font-size: 2em;
+    margin: 10px;
+}
+
+.playBtn:hover {
+    color: green;
+    transition: 0.1s;
+}
+
+.resetBtn:hover {
+    color: red;
+}
+
+
+.pause:hover {
+    color: darkred;
+    transition: 0.1s;
+}
+
+
+.frame {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px;
+    border: 5px solid #000;
+    background: linear-gradient(to bottom, #0000ff 0%, #00ff99 119%);
+}
+
+.inline {
+    display: inline-block;
+}
